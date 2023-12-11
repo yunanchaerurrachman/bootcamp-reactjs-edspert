@@ -1,0 +1,34 @@
+.kontak {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  padding: 7rem 2rem;
+}
+
+.kontak .container-kontak-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.kontak .container-kontak-content .img-content img {
+  width: 100%;
+}
+
+.kontak .container-kontak-content .text-content {
+  color: white;
+}
+
+.kontak .container-kontak-content .text-content h1 {
+  margin-bottom: 10px;
+}
+
+.kontak .container-kontak-content .text-content p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  .kontak .container-kontak-content {
+    grid-template-columns: 1fr;
+  }
+}

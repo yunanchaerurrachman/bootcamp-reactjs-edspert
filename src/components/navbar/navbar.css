@@ -1,0 +1,54 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo span {
+  font-size: 2rem;
+  color: white;
+}
+
+.container-button-link {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 15px;
+}
+
+.button-link {
+  padding: 1rem;
+  text-align: center;
+}
+
+.button-link:last-child {
+  border-right: none;
+}
+
+.button-link a {
+  color: black;
+  font-size: 15px;
+}
+
+.button-menu, .container-menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 450px) {
+  .logo span {
+    display: none;
+  }
+
+  .container-navbar {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+}

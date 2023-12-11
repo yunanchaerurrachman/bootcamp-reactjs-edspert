@@ -1,0 +1,68 @@
+.checkout {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  padding: 7rem 2rem;
+}
+
+.container-checkout-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.container-checkout-content .container-metode-pembayaran {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.container-checkout-content .container-metode-pembayaran h3 {
+  margin-top: 2rem;
+}
+
+.container-checkout-content .container-ringkasan-pesanan {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.container-checkout-content .container-ringkasan-pesanan h2:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
+.container-checkout-content .container-ringkasan-pesanan h3 {
+  margin-top: 2rem;
+}
+
+.container-checkout-content .container-ringkasan-pesanan p:nth-child(8) {
+  margin: 2rem 0;
+}
+
+.container-checkout-content .container-ringkasan-pesanan p:nth-child(8) span{
+  color: blue;
+}
+
+.container-checkout-content .container-ringkasan-pesanan a{
+  background-color: black;
+  padding: 1rem 3rem;
+  color: white;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1120px) {
+
+
+}
+
+@media screen and (max-width: 1028px) {
+
+}
+
+@media screen and (max-width: 450px) {
+  .container-checkout-content {
+    grid-template-columns: 1fr;
+  }
+
+}

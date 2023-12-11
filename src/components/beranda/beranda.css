@@ -1,0 +1,19 @@
+.beranda {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../assets/beranda.jpg);
+  background-size: cover;
+  padding: 0 2rem;
+}
+
+.beranda .content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.beranda .content h1{
+  font-size: 3rem;
+}

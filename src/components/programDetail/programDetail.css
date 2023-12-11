@@ -1,0 +1,73 @@
+.program-detail {
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  padding: 7rem 2rem;
+}
+
+.program-detail .container-program-detail-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.program-detail .container-program-detail-content .img-content img {
+  width: 100%;
+}
+
+.program-detail .container-program-detail-content .text-content h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.program-detail .container-program-detail-content .text-content .description-content {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.program-detail .container-program-detail-content .text-content .description-content h2{
+  margin: 10px 0;
+}
+
+.program-detail .container-program-detail-content .text-content .description-content h3{
+  margin-top: 15px;
+}
+
+.program-detail .container-program-detail-content .text-content .fasilitas-content {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.program-detail .container-program-detail-content .text-content .fasilitas-content h2{
+  margin-top: 10px;
+}
+
+.program-detail .container-program-detail-content .text-content .fasilitas-content h3{
+  margin-top: 15px;
+}
+
+.program-detail .container-program-detail-content .text-content a {
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1120px) {
+
+
+}
+
+@media screen and (max-width: 1028px) {
+  .program-detail .container-program-detail-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .program-detail .container-program-detail-content .text-content h1 {
+  font-size: 3rem;
+}
+}

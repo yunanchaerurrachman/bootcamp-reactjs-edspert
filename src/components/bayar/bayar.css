@@ -1,0 +1,54 @@
+.bayar {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  padding: 7rem 2rem;
+}
+
+.bayar .container-bayar-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.bayar .container-bayar-content .img-content img {
+  width: 100%;
+}
+
+.bayar .container-bayar-content .text-content h1 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.bayar .container-bayar-content .text-content p {
+  color: white;
+}
+
+.bayar .container-bayar-content .text-content .container-menu-pembayaran {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid white;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.bayar .container-bayar-content .text-content .container-menu-pembayaran h3 {
+  color: white;
+  cursor: pointer;
+}
+
+.bayar .container-bayar-content .text-content .container-menu-pembayaran h3:nth-child(1) {
+  color: blue;
+}
+
+.bayar .container-bayar-content .text-content ul {
+  color: white;
+  list-style: none;
+}
+
+@media screen and (max-width: 1028px) {
+  .bayar .container-bayar-content {
+    grid-template-columns: 1fr;
+  }
+}
